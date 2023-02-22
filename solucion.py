@@ -25,7 +25,7 @@ def eliminarProducto(claveProducto):
     # del Stock[claveProducto]
 
 '''
-eliminarProducto: Actualiza el producto, encontrado por la clave ingresada, con los nuevos valores
+actualizarProducto: Actualiza el producto, encontrado por la clave ingresada, con los nuevos valores
 '''
 def actualizarProducto(claveProducto, nombreProducto, precioProductoActualizado, stockProductoActualizado):
     Productos[claveProducto] = nombreProductoActualizado
@@ -33,7 +33,7 @@ def actualizarProducto(claveProducto, nombreProducto, precioProductoActualizado,
     Stock[claveProducto] = stockProductoActualizado
 
 '''
-imprimirListaProductos: Resumen de los diccionarios
+imprimirListaProductos: Resumen de los diccionarios agrupados como una tabla
 '''
 def imprimirListaProductos() -> 'Resumen de los diccionarios':
     print('====================================================')
